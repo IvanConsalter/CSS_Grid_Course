@@ -14,6 +14,7 @@ a {
 }
 
 img {
+    width: 100%;
     max-width: 100%;
     display: block;
     border-radius: 0.3rem;
@@ -95,6 +96,125 @@ header nav a:hover {
     background-color: #b07dfb;
 }
 
+/* Content */
+.content {
+    grid-area: content;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.content .col-wide,
+.content .quote {
+    grid-column: 1 / -1;
+}
+
+.content .title h1 {
+    font-size: 3.8rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #b07dfb;
+}
+
+.content .title span {
+    font-style: italic;
+    color: #b07dfb;
+}
+
+.content .features {
+    display: flex;
+    align-items: flex-start;
+}
+
+.content .features > div {
+    width: 80px;
+    text-align: center;
+    background: linear-gradient(135deg, #8844ee, #b07dfb);
+    border-radius: 0.3rem;
+    box-shadow: 0.3rem 0.3rem 1rem 0 rgba(44, 44, 44, 0.15);
+    position: relative;
+}
+
+.content .features div:first-child {
+    margin-right: 2rem;    
+}
+
+.content span {
+    display: block;
+    color: #b07dfb;
+}
+
+.content .features .number {
+    color: #b07dfb;
+    font-size: 3rem;
+    line-height: 1;
+    margin: 0.6rem auto;
+}
+
+.content .features .label {
+    background-color: #fff;
+    border-radius: 0 0 0.3rem 0.3rem;
+    padding: 0.3rem 0;
+    position: relative;
+    top: 3px;
+}
+
+.content .image-1 {
+    grid-row: span 2;
+    align-self: end;
+}
+
+.content .destaque {
+    font-size: 0.9rem;
+    color: #b07dfb;
+    max-width: 16rem;
+}
+
+.content .quote,
+.content .atributes {
+    padding: 2rem;
+    border-radius: 0.3rem;
+    box-shadow: 0.3rem 0.3rem 1rem 0 rgba(44, 44, 44, 0.15);
+    background: linear-gradient(135deg, #8844ee, #b07dfb);
+    align-self: start;
+}
+
+.content .quote p {
+    font-size: 1.8rem;
+    font-style: italic;
+    text-align: center;
+    color: #fff;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.content .atributes li {
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+.content .atributes li + li {
+    border-top: 2px solid #b07dfb;
+}
+
+.content .image-2 {
+    align-self: end;
+}
+
+.content p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.content .information p + p {
+    margin-top: 2rem;
+}
 /* Adverts */
 .adverts {
     grid-area: adverts;
