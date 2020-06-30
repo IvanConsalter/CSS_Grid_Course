@@ -104,3 +104,30 @@ header nav a:hover {
     padding: 2rem;
     gap: 2rem;
 }
+
+/* Footer */
+footer {
+    grid-area: footer;
+    background: linear-gradient(135deg, #8844ee, #b07dfb);
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+    margin: 1.2rem auto;
+}
+
+footer a {
+    padding: 0.5rem;
+    color: #fff;
+    font-size: 1.2rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 0.3rem;
+    transition: 0.3s;
+    
+}
+
+footer a:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
