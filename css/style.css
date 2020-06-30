@@ -70,3 +70,25 @@ header nav a:hover {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+/* Sidenav */
+.sidenav {
+    grid-area: sidenav;
+    background-color: #fafbfc;
+    padding: 2rem;
+}
+
+.sidenav li a {
+    display: block;
+    min-width: 80px;
+    max-width: 160px;
+    margin: 0 auto 2rem auto;
+    background-color: #fff;
+    padding: 1.2rem;
+    border-radius: 0.3rem;
+    box-shadow: 0.3rem 0.3rem 1rem 0 rgba(44, 44, 44, 0.15);
+    transition: 0.3s ease-out;
+}
+
+.sidenav li a:hover {
+    background-color: #b07dfb;
+}
