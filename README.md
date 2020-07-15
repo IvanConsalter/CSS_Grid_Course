@@ -4,6 +4,8 @@
 
 https://www.youtube.com/watch?v=hKXOVD2Yrj8
 
-![wildbeast](https://user-images.githubusercontent.com/50461475/86242245-c395cc80-bb7a-11ea-84a3-340cb28ad919.gif)
 
-![wildbeast-resp](https://user-images.githubusercontent.com/50461475/86242433-1b343800-bb7b-11ea-8263-e589239b105c.gif)
+![wildbeast](https://user-images.githubusercontent.com/50461475/87591625-faadc700-c6be-11ea-8ed9-0782cf960a0d.gif)
+
+
+![wildbeast-resp](https://user-images.githubusercontent.com/50461475/87591648-04cfc580-c6bf-11ea-9c9d-6472e6cc7ca3.gif)
